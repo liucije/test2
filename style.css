@@ -1,6 +1,31 @@
+body{
+  margin-left: 20px;
+  max-width: 800px;
+}
 h1{
   text-align: center;
   font-style:normal;
   font-family:sans-serif;
   font-weight: lighter;
+}
+p{
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  max-width: 400px;
+}
+button{
+  display: block;
+  background-color: lightblue;
+  width: 70px;
+  height: 30px;
+  color: white;
+  border: none;
+}
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
 }
